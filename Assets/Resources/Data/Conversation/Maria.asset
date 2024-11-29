@@ -1,0 +1,84 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 058980575076c42468978a7fb82217f0, type: 3}
+  m_Name: Maria
+  m_EditorClassIdentifier: 
+  id: 8ee5e735-975a-4293-990b-0335df26cb06
+  character: {fileID: 11400000, guid: a315dce2572e24f84bb9aabb1b88f72c, type: 2}
+  priority: 0
+  messages:
+  - id: 0
+    body: Welcome to EchoZone, new employee! First of all, congratulations on beating
+      out dozens of other candidates for the job. The fact that you've made it to
+      our company proves that you truly have some skills.
+    actions: []
+    isLastMessage: 0
+  - id: 1
+    body: I am Maria, a senior moderator responsible for maintaining order in the
+      forum. I will be guiding and supervising your work from now on.
+    actions: []
+    isLastMessage: 0
+  - id: 2
+    body: I've heard from HR about you; they said your resume indicates you're a
+      great fit for my department. I look forward to seeing that in action!
+    actions: []
+    isLastMessage: 0
+  - id: 3
+    body: Our job, put simply, is to ensure that EchoZone doesn't turn into an internet
+      wasteland overrun by trolls by banning inappropriate remarks and promoting
+      those that are valuable or contribute to constructive discussions within the
+      forum.
+    actions: []
+    isLastMessage: 0
+  - id: 4
+    body: But as the saying goes, the first step is always the hardest. I certainly
+      won't let you dive into your work without any preparation. After all, if you
+      mess up, I'll be in trouble too.
+    actions: []
+    isLastMessage: 0
+  - id: 5
+    body: "So now, I\u2019ll guide you through your first day of work! Don\u2019t
+      worry, it won\u2019t be difficult."
+    actions: []
+    isLastMessage: 0
+  - id: 6
+    body: So, newcomer, are you ready to start your first task as a moderator?
+    actions:
+    - actionName: Kind
+      playerReply: Of course, senpai! I'm ready to follow your guidance. Let's get
+        started right away!
+      nextMessageId: 7
+    - actionName: Rude
+      playerReply: Enough with the small talk. When are we actually going to start
+        working? I'm here to make money, not to sit through lectures.
+      nextMessageId: 8
+    - actionName: Normal
+      playerReply: "Please begin guiding me, Ms. Maria. I\u2019m confident I can
+        handle this job."
+      nextMessageId: 9
+    isLastMessage: 0
+  - id: 7
+    body: I didn't expect to find someone as humble as you in the workplace these
+      days. I hope you can keep that attitude. Let's get started now.
+    actions: []
+    isLastMessage: 1
+  - id: 8
+    body: "Ha, you really don\u2019t hold back! Fresh and fearless, I don\u2019t
+      actually mind that attitude. At EchoZone, we judge by performance, not seniority.
+      So let\u2019s see if your skills match your tone. We\u2019ll start now."
+    actions: []
+    isLastMessage: 1
+  - id: 9
+    body: "Well, since you\u2019ve said that, let\u2019s not waste any more time.
+      I\u2019ll tell you how to work within the EchoZone forum now."
+    actions: []
+    isLastMessage: 1

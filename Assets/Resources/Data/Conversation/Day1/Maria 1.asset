@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 058980575076c42468978a7fb82217f0, type: 3}
+  m_Name: Maria 1
+  m_EditorClassIdentifier: 
+  id: 8ee5e735-975a-4293-990b-0335df26cb06
+  character: {fileID: 11400000, guid: a315dce2572e24f84bb9aabb1b88f72c, type: 2}
+  priority: 0
+  messages:
+  - id: 0
+    body: Welcome to EchoZone, new employee! First of all, congratulations on beating
+      out dozens of other candidates for the job. The fact that you've made it to
+      our company proves that you truly have some skills.
+    time: 18:00
+    sender: 0
+    actions: []
+    isLastMessage: 0
+  - id: 1
+    body: I am Maria, a senior moderator responsible for maintaining order in the
+      forum. I will be guiding and supervising your work from now on.
+    time: 
+    sender: 0
+    actions: []
+    isLastMessage: 0
